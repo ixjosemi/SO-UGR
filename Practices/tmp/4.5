@@ -1,0 +1,5 @@
+#!/bin/bash
+
+nombre_archivo=`date +%Y-%j-%T`
+ps -ef > $nombre_archivo
+echo Mi pid = $$ >> $nombre_archivo

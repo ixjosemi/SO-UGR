@@ -1,0 +1,3 @@
+grep: ;: No existe el archivo o el directorio
+
+Error en el dup2 hijo1: Bad file descriptor

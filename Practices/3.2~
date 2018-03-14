@@ -1,0 +1,11 @@
+#!/bin/bash
+
+x=0
+a=0
+
+for i in 'seq 1 $1'
+do
+	a=2+3
+	x=`expr $x + 1`
+done
+echo "El valor de x es: " $x
